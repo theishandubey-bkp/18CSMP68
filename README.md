@@ -41,7 +41,12 @@
   >Develop a simple application withoneEditTextso that the user can write some text in it. Create a
   >button called “Convert Text to Speech” that converts the user input text into voice.
   
-#### Part-A
+#### Part-B
+
+- [Media Player]()
+  >Create an application to demonstrate a basic media playerthat allows the user to Forward,
+  >Backward, Play and Pause an audio. Also, make use of the indicator in the seek bar to move the
+  >audio forward or backward as required. 
   
 - [Clipboard](https://github.com/iamishandubey/18CSMP68/tree/main/Clipboard)
   >Develop an application that makes use of the clipboard framework for copying and pasting of the
