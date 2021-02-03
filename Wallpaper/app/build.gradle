@@ -1,11 +1,15 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-android-extensions'
+
+
 }
 
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
+
 
     defaultConfig {
         applicationId "in.edu.cambridge.wallpaper"
