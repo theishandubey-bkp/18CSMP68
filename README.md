@@ -21,6 +21,10 @@
   >website address isto be displayed. Insert a horizontal line between the job title and the phone
   >number. 
   
+- [Calculator](https://github.com/iamishandubey/18CSMP68/tree/main/Calculator)
+  >Develop an Android application usingcontrols like Button, TextView, EditText for designing a
+  >calculatorhaving basic functionality like Addition, Subtraction, Multiplication,andDivision. 
+  
 - [Wallpaper](https://github.com/iamishandubey/18CSMP68/tree/main/Wallpaper)
   >Develop an application to set an image as wallpaper. On click of a button, the wallpaper image
   >should start to change randomly every 30 seconds.
