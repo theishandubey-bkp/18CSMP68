@@ -41,6 +41,11 @@
   >Develop a simple application withoneEditTextso that the user can write some text in it. Create a
   >button called “Convert Text to Speech” that converts the user input text into voice.
   
+- [Phone Dialer](https://github.com/iamishandubey/18CSMP68/tree/main/PhoneDialer)
+  >Create an activity like a phone dialer withCALLand SAVE buttons. On pressing the CALL
+  >button, it must call the phone number and on pressing the SAVE button it must save the number
+  >to the phone contacts. 
+  
 #### Part-B
 
 - [Media Player](https://github.com/iamishandubey/18CSMP68/tree/main/MediaPlayer)
