@@ -52,6 +52,15 @@
   
 #### Part-B
 
+- [File Application](https://github.com/iamishandubey/18CSMP68/tree/main/FileApplication)
+  >Write a program to create an activity having a Text box, and also Save, Open and Create buttons.
+  >The user has to write some text in the Text box. On pressing the Create button the text should be
+  >saved as a text file in MkSDcard. On subsequent changes to the text, the Save button should be
+  >pressed to store the latest content to the same file. On pressing the Open button, it should display
+  >the contents from the previously stored files in the Text box. If the user tries to save the contents
+  >in the Textbox to a file without creating it, then a toast message has to be displayed saying “First
+  >Create a File”.
+
 - [Media Player](https://github.com/iamishandubey/18CSMP68/tree/main/MediaPlayer)
   >Create an application to demonstrate a basic media playerthat allows the user to Forward,
   >Backward, Play and Pause an audio. Also, make use of the indicator in the seek bar to move the
