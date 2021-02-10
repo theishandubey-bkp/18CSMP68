@@ -66,6 +66,13 @@
   >Backward, Play and Pause an audio. Also, make use of the indicator in the seek bar to move the
   >audio forward or backward as required. 
   
+- [Asynchronous Task](https://github.com/iamishandubey/18CSMP68/tree/main/AsynchronousTask)
+  >Develop an application to demonstrate the use of Asynchronous tasks in android. The
+  >asynchronous task should implement the functionality of a simple moving banner. On pressing the
+  >Start Task button, the banner message should scrollfrom right to left. On pressing the Stop Task
+  >button, the banner message should stop.Let the banner message be “Demonstration of
+  >Asynchronous Task”.
+  
 - [Clipboard](https://github.com/iamishandubey/18CSMP68/tree/main/Clipboard)
   >Develop an application that makes use of the clipboard framework for copying and pasting of the
   >text. The activity consists of two EditText controls and two Buttons to trigger the copy and paste
