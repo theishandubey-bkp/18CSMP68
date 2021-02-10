@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="54dp"
         android:layout_marginBottom="8dp"
-        android:text="Parse XML Data"
+        android:text="Parse JSON Data"
         app:layout_constraintBottom_toTopOf="@+id/data_type"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
