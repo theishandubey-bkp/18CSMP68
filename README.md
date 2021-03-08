@@ -11,7 +11,7 @@
 - Inspect different methods of sharing data using services. 
 
 ### Learning Resources
-- [Official Kotlin Reference (Pdf file) ](https://kotlinlang.org/docs/kotlin-pdf.html)
+- [Official Kotlin Reference](https://kotlinlang.org/docs/kotlin-pdf.html)
 
 ### List of Applications
 
