@@ -1,4 +1,6 @@
 # MOBILE APPLICATION DEVELOPMENT
+### Share this repo using [bit.ly/18csmp68](https://bit.ly/18csmp68)
+#
 ##### (Effective from the academic year 2018 -2019)
 ##### SEMESTER – VI
 ##### Course Code : 18CSMP68
