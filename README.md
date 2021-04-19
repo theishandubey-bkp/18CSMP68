@@ -73,7 +73,7 @@
   >button, it must call the phone number and on pressing the SAVE button it must save the number
   >to the phone contacts. 
   
-#### Part-B
+#### Part-B (Mini-Projects)
 
 - [File Application](https://github.com/iamishandubey/18CSMP68/tree/main/FileApplication)
   >Write a program to create an activity having a Text box, and also Save, Open and Create buttons.
