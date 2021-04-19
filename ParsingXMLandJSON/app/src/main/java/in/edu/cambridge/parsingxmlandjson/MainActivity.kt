@@ -8,6 +8,7 @@ import android.widget.TextView
 import org.json.JSONObject
 import java.io.IOException
 import java.nio.charset.Charset
+import javax.xml.parsers.DocumentBuilderFactory
 
 class MainActivity : AppCompatActivity() {
     private lateinit var parseXMLBtn: Button
@@ -28,6 +29,7 @@ class MainActivity : AppCompatActivity() {
         parseXMLBtn.setOnClickListener { parseXML() }
         parseJSONBtn = findViewById(R.id.parse_json)
         parseJSONBtn.setOnClickListener { parseJSON() }
+        parseXMLBtn.setOnClickListener { parseXML() }
 
         datatype = findViewById(R.id.data_type)
         cityName = findViewById(R.id.city_name)
@@ -39,9 +41,23 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    @SuppressLint("SetTextI18n")
     fun parseXML(){
         datatype.text = "XML Data"
+        try {
+            val iStream = assets.open("myxml.xml")
+            val builderFactory = DocumentBuilderFactory.newInstance()
+            var docBuilder = builderFactory.newDocumentBuilder()
+            var doc = docBuilder.parse(iStream)
+            cityName.text = "City Name : " + doc.getElementsByTagName("City_Name").item(0).getFirstChild().getNodeValue()
+            latitude.text = "Latitude : " + doc.getElementsByTagName("Latitude").item(0).getFirstChild().getNodeValue()
+            longitude.text = "Longitude : " + doc.getElementsByTagName("Longitude").item(0).getFirstChild().getNodeValue()
+            temprature.text = "Temperature : " + doc.getElementsByTagName("Temperature").item(0).getFirstChild().getNodeValue()
+            humidity.text = "Humidity : " + doc.getElementsByTagName("Humidity").item(0).getFirstChild().getNodeValue()
+        }
+        catch (ex: IOException) {
 
+        }
     }
 
     @SuppressLint("SetTextI18n")
