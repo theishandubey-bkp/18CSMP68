@@ -1,3 +1,4 @@
+![Logo](https://github.com/iamishandubey/18CSMP68/blob/main/Docs/logo.png)
 # MOBILE APPLICATION DEVELOPMENT
 ### Share this repo using [bit.ly/18csmp68](https://bit.ly/18csmp68)
 #
@@ -14,6 +15,9 @@
 
 ### Learning Resources
 - [Official Kotlin Reference](https://kotlinlang.org/docs/kotlin-pdf.html)
+- [Official Android Documentation](https://developer.android.com/docs)
+- [Android Developers Youtube Channel](https://www.youtube.com/user/androiddevelopers)
+- Material.io  [[Basics]](https://material.io/design/introduction) [[Components for Android]](https://material.io/components?platform=android)
 
 ### List of Applications
 
